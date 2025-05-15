@@ -1,0 +1,47 @@
+# Ignore virtual environment folder
+.venv/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode settings (if using VSCode)
+.vscode/
+
+# Python environment files
+.env
+
+# Python logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Lock files
+uv.lock
+
+# Ignore pipenv files (if any)
+Pipfile.lock
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
